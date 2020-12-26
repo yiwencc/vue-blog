@@ -1,0 +1,74 @@
+<template>
+  <div class="col-md-8">
+    <h1>最新发布</h1>
+    <!-- 标题，标签，分类，留言总数，发布时间 -->
+    <article>
+      <h2>
+        <a href="#">这是我的第一篇文章</a>
+      </h2>
+      <div class="row">
+        <div class="col-md-6 col-sm-6">
+          <span class="glyphicon glyphicon-folder-open"></span>&nbsp;&nbsp;
+          <a href>标签</a>
+          &nbsp;&nbsp;
+          <span class="glyphicon glyphicon-tags"></span>&nbsp;&nbsp;
+          <a href>分类1</a>，
+          <a href>分类2</a>，
+          <a href>分类3</a>
+        </div>
+        <div class="col-md-6 col-sm-6">
+          <span class="glyphicon glyphicon-comment"></span>&nbsp;&nbsp;
+          <a href>200条评论</a>
+          &nbsp;&nbsp;
+          <span class="glyphicon glyphicon-time"></span>&nbsp;&nbsp;
+          <a href>2020年8月27日上午10点03分</a>
+        </div>
+      </div>
+      <hr />
+
+      <img src="http://placekitten.com/900/300" class="img-responsive" />
+      <br />
+      <p class="lead">一言是创建于 2016 年的项目，起初是用于个人目的</p>
+      <p>一言是创建于 2016 年的项目，起初是用于个人目的。目前已经转为公益项目，由萌创团队运营，为大家提供服务。 所谓一言（ヒトコト），即一句话。这句话可以是传达了感动，可以是博人一笑，可以是发人深思。总之，一言，代表着言语的触动，灵魂的交流。</p>
+      <ul class="pager">
+        <li class="previous">
+          <a href="/">返回主页</a>
+        </li>
+      </ul>
+      <div class="well">
+        <h4>评论区</h4>
+        <form class="clearfix">
+          <div class="form-group col-md-6">
+            <label for="username">用户名字</label>
+            <input type="text" class="form-control" id="username" placeholder="名字" />
+          </div>
+          <div class="form-group col-md-6">
+            <label for="exampleInputEmail1">邮箱</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="邮箱" />
+          </div>
+          <div class="form-group col-md-12">
+            <textarea class="form-control" id="comment" placeholder="评论内容..."></textarea>
+          </div>
+          <div class="form-group text-right">
+            <button type="submit" class="btn btn-primary">提交</button>
+          </div>
+        </form>
+      </div>
+
+      <hr />
+    </article>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "Detail",
+  data() {
+    return {};
+  },
+  components: {},
+};
+</script>
+
+<style scoped lang='scss'>
+</style>
